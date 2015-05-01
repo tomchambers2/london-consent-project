@@ -1,4 +1,6 @@
+
 module.exports = function(grunt) {
+    grunt.loadNpmTasks('grunt-gh-pages');
 
     // Project configuration.
     grunt.initConfig({
@@ -59,7 +61,13 @@ module.exports = function(grunt) {
                     environment: 'production'
                 }
             },
-        }
+        },
+        'gh-pages': {
+            options: {
+              base: 'app/public'
+            },
+            src: ['**']
+        }        
     });
 
     // Load the plugin
@@ -71,5 +79,7 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['connect:livereload', 'compass:dev', 'watch']);
     // prod build
     grunt.registerTask('prod', ['compass:prod']);
+
+    grunt.registerTask('deploy', ['gh-pages']);
 
 };
