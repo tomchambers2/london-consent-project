@@ -8038,22 +8038,23 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   background: url(../images/logo_x_pattern.png);
+  background: url(../images/blackboard1.png);
   font-family: 'Cousine';
 }
 
-/* line 14, ../../src/stylesheets/_general.scss */
+/* line 16, ../../src/stylesheets/_general.scss */
 .row-with-padding {
   padding-top: 60px;
 }
 
-/* line 18, ../../src/stylesheets/_general.scss */
+/* line 20, ../../src/stylesheets/_general.scss */
 .navbar {
   margin-bottom: 20px;
   background: #000;
   border-radius: 0;
 }
 
-/* line 24, ../../src/stylesheets/_general.scss */
+/* line 26, ../../src/stylesheets/_general.scss */
 .main {
   background: #EA212D;
   color: #fff;
@@ -8062,14 +8063,14 @@ body {
   color: #000;
 }
 
-/* line 33, ../../src/stylesheets/_general.scss */
+/* line 35, ../../src/stylesheets/_general.scss */
 .twitter {
   padding: 2em;
   margin: 1.5em 0;
   background: #fff;
 }
 
-/* line 39, ../../src/stylesheets/_general.scss */
+/* line 41, ../../src/stylesheets/_general.scss */
 .side {
   background: #FEC832;
   padding: 2em;
@@ -8077,17 +8078,17 @@ body {
   color: #fff;
 }
 
-/* line 46, ../../src/stylesheets/_general.scss */
+/* line 48, ../../src/stylesheets/_general.scss */
 .side:first-of-type {
   margin-top: 0;
 }
 
-/* line 50, ../../src/stylesheets/_general.scss */
+/* line 52, ../../src/stylesheets/_general.scss */
 .side:nth-of-type(2) {
   background: #653366;
 }
 
-/* line 54, ../../src/stylesheets/_general.scss */
+/* line 56, ../../src/stylesheets/_general.scss */
 .side:nth-of-type(even) {
   	/*background: #2DB051;
   
