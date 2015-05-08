@@ -8111,9 +8111,26 @@ button.close {
   color: #000;
   padding: 18px;
   margin-bottom: 29px;
+  margin-top: 29px;
 }
 
-/* line 61, ../../src/stylesheets/_speech-bubbles.scss */
+/* line 62, ../../src/stylesheets/_speech-bubbles.scss */
+.bubble.top:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 15px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* line 78, ../../src/stylesheets/_speech-bubbles.scss */
 .bubble.left:after {
   content: '';
   position: absolute;
@@ -8127,7 +8144,7 @@ button.close {
   left: 41px;
 }
 
-/* line 75, ../../src/stylesheets/_speech-bubbles.scss */
+/* line 92, ../../src/stylesheets/_speech-bubbles.scss */
 .bubble.right:after {
   content: '';
   position: absolute;
@@ -8170,6 +8187,7 @@ body {
 
 /* line 32, ../../src/stylesheets/_general.scss */
 .main {
+  border-radius: 8px;
   padding: 2em;
   color: #000;
   background: rgba(0, 0, 0, 0.4);
@@ -8177,69 +8195,70 @@ body {
   color: #fff;
 }
 
-/* line 44, ../../src/stylesheets/_general.scss */
+/* line 45, ../../src/stylesheets/_general.scss */
 .main:nth-of-type(2) {
   margin-top: 2em;
 }
 
-/* line 48, ../../src/stylesheets/_general.scss */
+/* line 49, ../../src/stylesheets/_general.scss */
 .main.quote img {
   width: 100%;
 }
 
-/* line 52, ../../src/stylesheets/_general.scss */
+/* line 53, ../../src/stylesheets/_general.scss */
 .profile {
   border-radius: 999px;
   height: 100px;
   width: 100px;
   background-position: center;
   background-size: cover;
+  margin: auto;
 }
 
-/* line 60, ../../src/stylesheets/_general.scss */
+/* line 62, ../../src/stylesheets/_general.scss */
 .profile.kate {
   background-image: url(/images/people/kate-parker.png);
 }
 
-/* line 63, ../../src/stylesheets/_general.scss */
+/* line 65, ../../src/stylesheets/_general.scss */
 .profile.victoria {
   background-image: url(/images/people/victoria.png);
 }
 
-/* line 67, ../../src/stylesheets/_general.scss */
+/* line 69, ../../src/stylesheets/_general.scss */
 .twitter {
   padding: 2em;
   margin: 1.5em 0;
 }
 
-/* line 73, ../../src/stylesheets/_general.scss */
+/* line 75, ../../src/stylesheets/_general.scss */
 h1.poster {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 78, ../../src/stylesheets/_general.scss */
+/* line 80, ../../src/stylesheets/_general.scss */
 .poster {
   padding-top: 28px;
 }
 
-/* line 82, ../../src/stylesheets/_general.scss */
+/* line 84, ../../src/stylesheets/_general.scss */
 .side-inner {
   padding: 2em;
 }
 
-/* line 86, ../../src/stylesheets/_general.scss */
+/* line 88, ../../src/stylesheets/_general.scss */
 .side {
   background: #FEC832;
   color: #fff;
 }
 
-/* line 91, ../../src/stylesheets/_general.scss */
+/* line 93, ../../src/stylesheets/_general.scss */
 .side:first-of-type {
   margin-top: 0;
 }
 
-/* line 95, ../../src/stylesheets/_general.scss */
+/* line 97, ../../src/stylesheets/_general.scss */
 .side:nth-of-type(1) {
   background: url(../images/notepad.png);
   background-size: contain;
@@ -8265,14 +8284,14 @@ h1.poster {
     box-shadow: 0 1px 2px rgba(0,0,0,0.07);	*/
 }
 
-/* line 122, ../../src/stylesheets/_general.scss */
+/* line 124, ../../src/stylesheets/_general.scss */
 .side:nth-of-type(even) {
   	/*background: #2DB051;
   
   	background: #fff;*/
 }
 
-/* line 128, ../../src/stylesheets/_general.scss */
+/* line 130, ../../src/stylesheets/_general.scss */
 .flier {
   width: 80%;
 }
@@ -8284,22 +8303,28 @@ h1.poster {
   font-size: 18px;
   color: #fff;
   margin: 30px 0;
+  border-radius: 4px;
 }
 
-/* line 9, ../../src/stylesheets/_menu.scss */
+/* line 10, ../../src/stylesheets/_menu.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 13, ../../src/stylesheets/_menu.scss */
+/* line 14, ../../src/stylesheets/_menu.scss */
 .navbar .navbar-nav > .active > a {
   background: #fff;
   color: #000;
 }
 
-/* line 18, ../../src/stylesheets/_menu.scss */
+/* line 19, ../../src/stylesheets/_menu.scss */
 .navbar li:hover {
   background: #eee;
+}
+
+/* line 23, ../../src/stylesheets/_menu.scss */
+.navbar li {
+  margin-right: 10px;
 }
 
 /* line 1, ../../src/stylesheets/_typography.scss */

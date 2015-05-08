@@ -55,6 +55,23 @@ border-radius: 10px;
 color: #000;
 padding: 18px;
 margin-bottom: 29px;
+margin-top: 29px;
+}
+
+.bubble.top:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 15px 15px;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+top: -15px;
+left: 0;
+right: 0;
+margin: auto;
 }
 
 .bubble.left:after 
