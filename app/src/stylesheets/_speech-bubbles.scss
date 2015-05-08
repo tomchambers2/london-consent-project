@@ -1,0 +1,86 @@
+.bubble.one {
+	background: #E5591D;
+	color: #fff;
+}
+.bubble.two {
+	background: #3398CC;
+	color: #fff;
+}
+.bubble.three {
+	background: #653366;
+	color: #fff;
+}
+.bubble.four {
+	background: #99CC01;
+	color: #fff;
+}
+.bubble.five {
+	background: #7C7A7B;
+	color: #fff;
+}
+.bubble.six {
+	background: #CC0098;
+	color: #fff;
+}
+
+.bubble.one:after {
+	border-color: #E5591D transparent !important;
+}
+.bubble.two:after {
+	border-color: #3398CC transparent !important;
+}
+.bubble.three:after {
+	border-color: #653366 transparent !important;
+}
+.bubble.four:after {
+	border-color: #99CC01 transparent !important;
+}
+.bubble.five:after {
+	border-color: #7C7A7B transparent !important;
+}
+.bubble.six:after {
+	border-color: #CC0098 transparent !important;
+}
+
+.bubble
+{
+position: relative;
+width: 100%;
+//height: 120px;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+color: #000;
+padding: 18px;
+margin-bottom: 29px;
+}
+
+.bubble.left:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 23px 19px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -23px;
+left: 41px;
+}
+
+.bubble.right:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 23px 19px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -20px;
+right: 41px;
+}

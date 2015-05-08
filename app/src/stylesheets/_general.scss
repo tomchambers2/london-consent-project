@@ -1,16 +1,22 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: url(../images/logo_x_pattern.png);
+  //background: url(../images/logo_x_pattern.png);
 
   //background: url(../images/redox_01.png);
 
   //background: url(../images/white_wall_hash.png);
 
-  background: url(../images/blackboard1.png);
-  
+  background: url(../images/blackboard_5.jpg); 
+  //background-size: auto 100%;
 
   font-family: 'Cousine';
+  font-size: 17px;
+}
+
+.logo {
+  position: relative;
+  z-index: 10;
 }
 
 .row-with-padding {
@@ -24,24 +30,61 @@ body {
 }
 
 .main {
-	background: #EA212D;
-	color: #fff;
 	padding: 2em;
 
-	background: #fff;
+	//background: #fff;
 	color: #000;
+
+  //background: url(../images/blackboard1.png);  
+  background: rgba(0, 0, 0, 0.4);
+  background-size: auto 100%;  
+  color: #fff;
+}
+
+.main:nth-of-type(2) {
+  margin-top: 2em;
+}
+
+.main.quote img {
+  width: 100%;
+}
+
+.profile {
+  border-radius: 999px;
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile.kate {
+  background-image: url(/images/people/kate-parker.png);
+}
+.profile.victoria {
+  background-image: url(/images/people/victoria.png);
 }
 
 .twitter {
 	padding: 2em;
 	margin: 1.5em 0;
-	background: #fff;
+	//background: #fff;
+}
+
+h1.poster {
+  margin-top: 0;
+	margin-bottom: 0;
+}
+
+.poster {
+  padding-top: 28px;
+}
+
+.side-inner {
+  padding: 2em;
 }
 
 .side {
 	background: #FEC832;
-	padding: 2em;
-	margin: 1.5em 0;
 	color: #fff;
 }
 
@@ -49,8 +92,31 @@ body {
 	margin-top: 0;
 };
 
-.side:nth-of-type(2) {
-	background: #653366;
+.side:nth-of-type(1) {
+	background: url(../images/notepad.png);
+	background-size: contain;
+	//padding-top: 3em;
+	color: #000;
+
+/*	background: #fff;
+
+  line-height: 20px;
+  border: 1px solid #d2d2d2;
+  background: #fff;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  -ms-background-size: 100% 20px;
+  -o-background-size: 100% 20px;
+  background-size: 100% 20px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);	*/
 }
 
 .side:nth-of-type(even) {
@@ -58,3 +124,7 @@ body {
 
 	background: #fff;*/
 };
+
+.flier {
+	width: 80%;
+}

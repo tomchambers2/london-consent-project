@@ -2,18 +2,19 @@ h1 {
 	font-size: 1.4em;
 	line-height: 1.5em;
 	margin-top: 2em;
-}
-
-.about h1 {
 	margin-bottom: 2em;
 }
 
 h2 {
-	font-size: 1.3em;
+	font-size: 1.7em;
 }
 
 h1:first-of-type, h2:first-of-type {
 	margin-top: 0;
+}
+
+ul.statistics {
+	margin-bottom: 2em;
 }
 
 .main ul li {
