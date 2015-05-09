@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="/javascripts/contact.js"></script>
+  <script src="/js/contact.js"></script>
 </head>
 <body>
     <div class="container">
@@ -40,21 +40,29 @@
           <div class="main">
             <h1><a href="https://www.facebook.com/groups/347577788773892/" target="_blank">Facebook</a> | <a href="http://twitter.com/consentldn" target="_blank">Twitter</a></h1>
 
-            <form action="">
+			<div class="sent hidden">
+				<h1>Thanks for your message, we'll get back to you soon</h1>
+			</div>
+
+            <form action="" class="send">
               <label>Your Name <span class="required">*</span></label><br>
-              <input type="text"><br>
+              <input class="name" name="name" type="text"><br>
               <br>
               <label for="email">Your Email <span class="required">*</span></label><br>
-              <input type="email"><br>
+              <input class="email" name="email" type="email"><br>
               <br>
               <label for="subject">Subject <span class="required">*</span></label><br>
-              <input type="text"><br>
+              <input class="subject" name="subject" type="text"><br>
               <br>
               <label for="message">Your Message <span class="required">*</span></label><br>
-              <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+              <textarea class="message" name="message" id="message" cols="30" rows="10"></textarea><br>
               <br>
               <input type="submit" class="send-message" value="Send Message">
             </form>   
+
+			<div class="error hidden">
+				<h1>Something went wrong with your message. Please make sure all fields are filled in</h1>
+			</div>            
           </div>
         </div>
         <div class="col-md-4">
