@@ -8246,7 +8246,7 @@ h1.poster {
 .side-inner {
   padding: 2em;
   overflow: scroll;
-  height: 200px;
+  height: 360px;
 }
 
 /* line 90, ../../src/stylesheets/_general.scss */
@@ -8262,6 +8262,7 @@ h1.poster {
 
 /* line 99, ../../src/stylesheets/_general.scss */
 .side:nth-of-type(1) {
+  padding-bottom: 30px;
   background: url(../images/notepad.png);
   background-size: contain;
   color: #000;
