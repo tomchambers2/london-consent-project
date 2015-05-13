@@ -8333,6 +8333,12 @@ form input, form textarea {
 }
 
 /* line 5, ../../src/stylesheets/_typography.scss */
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* line 10, ../../src/stylesheets/_typography.scss */
 h1 {
   font-size: 1.4em;
   line-height: 1.5em;
@@ -8340,43 +8346,43 @@ h1 {
   margin-bottom: 2em;
 }
 
-/* line 12, ../../src/stylesheets/_typography.scss */
+/* line 17, ../../src/stylesheets/_typography.scss */
 h2 {
   font-size: 1.7em;
 }
 
-/* line 16, ../../src/stylesheets/_typography.scss */
+/* line 21, ../../src/stylesheets/_typography.scss */
 h1:first-of-type, h2:first-of-type {
   margin-top: 0;
 }
 
-/* line 20, ../../src/stylesheets/_typography.scss */
+/* line 25, ../../src/stylesheets/_typography.scss */
 ul.statistics {
   margin-bottom: 2em;
 }
 
-/* line 24, ../../src/stylesheets/_typography.scss */
+/* line 29, ../../src/stylesheets/_typography.scss */
 .main ul li {
   margin: 1em 0;
 }
 
-/* line 28, ../../src/stylesheets/_typography.scss */
+/* line 33, ../../src/stylesheets/_typography.scss */
 p {
   margin-top: 1.5em;
   line-height: 1.6em;
 }
 
-/* line 33, ../../src/stylesheets/_typography.scss */
+/* line 38, ../../src/stylesheets/_typography.scss */
 p:first-of-type {
   margin-top: 0;
 }
 
-/* line 37, ../../src/stylesheets/_typography.scss */
+/* line 42, ../../src/stylesheets/_typography.scss */
 .testimonials h2 {
   margin-bottom: 2em;
 }
 
-/* line 41, ../../src/stylesheets/_typography.scss */
+/* line 46, ../../src/stylesheets/_typography.scss */
 .required {
   color: red;
 }
