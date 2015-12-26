@@ -8208,12 +8208,12 @@ body {
 
 /* line 62, ../../src/stylesheets/_general.scss */
 .profile.kate {
-  background-image: url(/images/people/kate-parker.png);
+  background-image: url(../images/people/kate-parker.png);
 }
 
 /* line 65, ../../src/stylesheets/_general.scss */
 .profile.victoria {
-  background-image: url(/images/people/victoria.png);
+  background-image: url(../images/people/victoria.png);
 }
 
 /* line 69, ../../src/stylesheets/_general.scss */
